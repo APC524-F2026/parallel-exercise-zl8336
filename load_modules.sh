@@ -1,2 +1,1 @@
-echo "(ONLY IF NEEDED) Populate me. e.g.:"
-echo "module load cudatoolkit/11.8"
+##conda activate /scratch/network/zl8336/.conda/envs/GPU_Python

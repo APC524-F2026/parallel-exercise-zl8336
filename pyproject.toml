@@ -6,5 +6,5 @@ requires-python = ">=3.13"
 dependencies = []
 
 [dependency-groups]
-res = ["numpy", "matplotlib"]
-test = ["pytest", "matplotlib"]
+res = ["numpy", "jax", "matplotlib"]
+test = ["pytest", "jax", "matplotlib"]

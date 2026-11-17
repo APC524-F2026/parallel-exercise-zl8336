@@ -1,2 +1,1 @@
-echo "Populate me. e.g.:"
-echo "gfortran -fopenmp -o mandelbrot_area src/prog_parallel.f90"
+echo "JAX will compile just in time during runtime. There is no need to compile in advance."
