@@ -65,7 +65,7 @@ def execute_parallel():
 
     return execute
 
-"""
+
 def test_grid_serial(execute_serial, mandelbrot_area):
     for n in [0, 1, 2, 5, 10, 50]:
         for L in [2, 3]:
@@ -91,7 +91,7 @@ def test_grid_parallel(execute_parallel, mandelbrot_area):
                         py_sol, abs=1e-6, rel=1e-6
                     ), f'Disagreement for "./run_parallel.sh {n} {L} {N} {workers}"'
 
-"""
+
 artifact_fol = repo_root / "_test_artifacts"
 
 
