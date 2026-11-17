@@ -51,4 +51,4 @@ plt.imshow(
 )
 plt.title(f"Mandelbrot Set, Area = {area}, \n Samples per Axis = {samples_per_axis}, Divergence Threshold = {divergence_threshold},num_iters = {num_iters}")
 plt.savefig(os.path.join(working_dir, "area_demo.png"))
-print(area)
+print(f"{area:.15f}")
